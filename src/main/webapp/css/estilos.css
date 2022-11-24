@@ -1,0 +1,573 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.titulo {
+	color: #642a73;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.body {
+	background: #386FA4;
+}
+
+nav {
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+nav>a {
+	color: black;
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+nav>a:hover {
+	text-decoration: underline;
+}
+
+/*Hospedaje*/
+.flex {
+	border: 2px solid black;
+	background: #76818E;
+	padding: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 500px;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+.flex_link {
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 300px;
+	margin: 0 auto;
+	height: 200px;
+}
+
+.flex_link a {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+.caja {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	width: 300px;
+	height: 300px;
+	line-height_: 120px;
+	text-align: center;
+	margin: 6px;
+	float: left;
+}
+
+.flex1 {
+	background: #FFFFFF;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 533px;
+}
+
+/*Lugares turisticos */
+.contenedor_lugares {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	background: #CAC4CE;
+}
+
+.contenedor_mapa {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+}
+.contenedor-3 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	background: #FEEFE5;
+}
+
+.contenedor-3  a{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #2D3142;
+}
+
+.contenedor-3  label{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #2D3142;
+}
+
+.contenedor-3  h2{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 20px;
+	color: #642a73;
+}
+
+.contenedor-3 p {
+text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	
+}
+
+.contenedor-2 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 0;
+	background: #FEEFE5;
+}
+
+.contenedor-2 td {
+text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #2D3142;
+}
+
+
+.textos1 h2{
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #2D3142;
+}
+
+
+.texto-numero li {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #2D3142;
+}
+
+.texto-numero p {
+	font-size: 20px;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+.contener_tabla table {
+	margin-bottom: 50px;
+}
+
+header {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .foto {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .foto1 {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .foto2 {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .foto3 {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada5.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .foto4 {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada6.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+
+.flex_conte{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.flex_conte h2{
+    align-items: center;
+	font-size: 50px;
+	font-family: Comic Sans;
+}
+
+.flex_conte td{
+  align-items: center;
+	font-size: 30px;
+	font-family: Comic Sans;
+}
+
+
+.flex_conte a{
+  align-items: center;
+	font-size: 40px;
+	font-family: Comic Sans;
+}
+
+
+.flex_formulario td {
+	align-items: center;
+	font-size: 30px;
+	font-family: Comic Sans;
+	
+}
+
+.flex_formulario h2 {
+	align-items: center;
+	font-size: 40px;
+	font-family: Comic Sans;
+	color: blue;
+}
+
+
+
+header .foto5 {
+	width: 100%;
+	height: 700px;
+	background: url(../imagenes/portada7.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .textos {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+contenido-textos {
+	font-size: 30px;
+	font-family: Comic Sans;
+}
+
+.listas_numeradas.contenido-textos {
+	width: 48%;
+}
+
+.contenido-textos h3 span {
+	background: #4d0686;
+	color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	margin-right: 5px;
+}
+
+.contenido-textos p {
+	padding: 0px 0px 30px 15px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.contenido-textos1 p {
+	padding: 0px 0px 30px 15px;
+	font-weight: 40px;
+	text-align: justify;
+}
+
+.textos h1 {
+	font-size: 70px;
+	color: #0C090D;
+}
+
+.textos1 h3 {
+	color: #353A47;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.textos1 p {
+	color: #353A47;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.textos1 a {
+	color: #5171A5;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.h2 {
+	font-size: 35px;
+	font-weight: 300;
+	color: black;
+}
+
+/*Hospedaje*/
+.textos {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.textos h2 {
+	margin-top: 100px;
+	font-size: 60px;
+}
+
+.textos p {
+	margin: 20px;
+	font-size: 25px;
+}
+
+.textos a {
+	text-decoration: none;
+}
+
+.img_lugares {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.foto_lugares {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+	width: 300px;
+}
+
+.foto_lugares  img {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+	margin-bottom: 15px;
+	margin-top: 15px;
+	width: 300px;
+	height: 250px;
+}
+
+.mapa {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+	width: 300px;
+	height: 500px;
+}
+
+.mapa  img {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+	margin-bottom: 15px;
+	margin-top: 15px;
+	width: 300px;
+	height: 250px;
+}
+
+.mapa  h3 {
+	font-size: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.mapa p {
+	font-size: 20px;
+	align-items: center;
+	text-align: justify;
+}
+
+.foto_lugares  h3 {
+	font-size: 30px;
+	align-items: center;
+	text-align: center;
+}
+
+.foto_lugares  p {
+	font-size: 20px;
+	align-items: center;
+	text-align: justify;
+}
+
+.foto__img h3 {
+	margin: 10px 0;
+	font-size: 25px;
+}
+
+.foto__img img {
+	border-radius: 10px;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	padding-right: 100px;
+}
+
+body {
+	font-family: 'open sans';
+}
+
+.contener_tabla {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	border-spacing: 30px;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	background-color: #4F517D;
+}
+
+.footer .parte1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+
+.footer .parte1 .box figure {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .parte1 .box figure img {
+	width: 200px;
+}
+
+.footer .parte1 .box h2 {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 45px;
+	margin-top: 50px;
+}
+
+.footer .parte1 .box p {
+	color: #efefef;
+	margin-bottom: 30px;
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+.footer .parte1 .redes a {
+	display: inline-block;
+	text-decoration: none;
+	width: 64px;
+	height: 64px;
+	color: #fff;
+	margin-right: 10px;
+	text-align: center;
+	transition: all 300ms ease;
+}
+
+.footer .grupo-1 .redes a:hover {
+	color: aqua;
+}
+
+.footer .parte2 {
+	background-color: #0034dc;
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.footer .parte2 small {
+	font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+	.footer .parte2 {
+		width: 90%;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		padding: 35px 0px;
+	}
+}
